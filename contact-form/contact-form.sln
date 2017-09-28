@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "contact-form", "contact-form\contact-form.csproj", "{4467E8B7-239F-42C6-B43E-8804C6252A06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "contact-form.Tests", "contact-form.Tests\contact-form.Tests.csproj", "{FE8DE763-C2CB-455E-9EF3-6FD8C5DBDB81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4467E8B7-239F-42C6-B43E-8804C6252A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4467E8B7-239F-42C6-B43E-8804C6252A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4467E8B7-239F-42C6-B43E-8804C6252A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4467E8B7-239F-42C6-B43E-8804C6252A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8DE763-C2CB-455E-9EF3-6FD8C5DBDB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8DE763-C2CB-455E-9EF3-6FD8C5DBDB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8DE763-C2CB-455E-9EF3-6FD8C5DBDB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8DE763-C2CB-455E-9EF3-6FD8C5DBDB81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
