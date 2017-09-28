@@ -19,6 +19,8 @@ namespace contactform {
 		
 		protected System.Web.UI.WebControls.TextBox email;
 		
-		protected System.Web.UI.WebControls.Button button1;
+		protected System.Web.UI.HtmlControls.HtmlTextArea message;
+		
+		protected System.Web.UI.WebControls.Button Button;
 	}
 }

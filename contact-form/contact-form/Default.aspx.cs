@@ -7,9 +7,14 @@ namespace contactform
 
     public partial class Default : System.Web.UI.Page
     {
-        public void button1Clicked(object sender, EventArgs args)
+		public string Name { get; set; }
+		public string Email { get; set; }
+		public string Message { get; set; }
+        public string Priority { get; set; }
+
+        public void ActionSendEmail(object sender, EventArgs args)
         {
-            button1.Text = "You clicked me";
+			Button.Text = "Message send";
         }
     }
 }
