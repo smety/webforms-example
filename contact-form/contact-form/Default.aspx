@@ -35,7 +35,7 @@
             margin: 10px 0 0 0;
         }
 
-        label span {
+        span {
             display: block;
             margin: 10px 0;
         }
@@ -45,31 +45,47 @@
 <body>
 	<div class="container">
     	<form id="form" runat="server">
-
+				
         <label id="Name">
-			<span>Your name</span>
-    		<asp:TextBox name="Name" placeholder="Insert your name" id="mame" runat="server" ValidateRequestMode="Enabled"></asp:TextBox>
+			<span class="label-span">Your name</span>
+  
+		    <asp:RequiredFieldValidator runat="server" ControlToValidate="Name"> 
+				Name is required *
+            </asp:RequiredFieldValidator>
+	    
+    		<asp:TextBox name="Name" placeholder="Insert your name" id="Name" runat="server" ValidateRequestMode="Enabled"></asp:TextBox>
     	</label>
 						
         <label id="Email">
-			<span>Your email</span>
-            <asp:TextBox name="Email" placeholder="Insert your email" id="email" runat="server" ValidateRequestMode="Enabled"></asp:TextBox>
+			<span class="label-span">Your email</span>
+
+           <asp:RequiredFieldValidator runat="server" ControlToValidate="Email"> 
+                Email is required *
+            </asp:RequiredFieldValidator>
+          
+            <asp:TextBox name="Email" placeholder="Insert your email" id="Email" runat="server" ValidateRequestMode="Enabled"></asp:TextBox>
        </label>
        
         <label id="Message">
-			<span>Your message</span>
-            <textarea name="Message" placeholder="Insert your message" id="message" runat="server" ValidateRequestMode="Enabled"></textarea>
+			<span class="label-span">Your message</span>
+
+		   <asp:RequiredFieldValidator runat="server" ControlToValidate="Message"> 
+                Message is required *
+            </asp:RequiredFieldValidator>
+					
+            <textarea name="Message" placeholder="Insert your message" id="Message" runat="server" ValidateRequestMode="Enabled"></textarea>
         </label>
 
 		<label id="TypeMessage">
 			<span>Priority message</span>
+					
 			<select name="Priority" runat="server">
 				<option value="Low">Low</option>
                 <option value="Standard">Stanard</option>
 				<option value="Hight">High</option>
 			</select>
 		</label>
-
+				
     	<asp:Button id="Button" runat="server" Text="Send email" OnClick="ActionSendEmail" />
     	</form>
 	 </div>

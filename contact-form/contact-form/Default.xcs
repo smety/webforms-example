@@ -2,7 +2,7 @@
 using System.Web;
 using System.Web.UI;
 
-namespace contactform
+namespace ContactForm
 {
 
     public partial class Default : System.Web.UI.Page
@@ -15,8 +15,6 @@ namespace contactform
         public void ActionSendEmail(object sender, EventArgs args)
         {
 			Button.Text = "Message send";
-
-            // TODO send message at email
         }
     }
 }

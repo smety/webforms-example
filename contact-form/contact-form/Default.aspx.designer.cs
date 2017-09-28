@@ -15,12 +15,6 @@ namespace contactform {
 		
 		protected System.Web.UI.HtmlControls.HtmlForm form;
 		
-		protected System.Web.UI.WebControls.TextBox mame;
-		
-		protected System.Web.UI.WebControls.TextBox email;
-		
-		protected System.Web.UI.HtmlControls.HtmlTextArea message;
-		
 		protected System.Web.UI.WebControls.Button Button;
 	}
 }
