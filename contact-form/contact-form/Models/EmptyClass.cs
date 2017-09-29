@@ -1,5 +1,5 @@
 ﻿using System;
-namespace contactform.Models
+namespace ContactForm.Models
 {
     public class EmailModels
     {

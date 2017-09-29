@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace contactform
+namespace ContactForm
 {
     public static class WebApiConfig
     {

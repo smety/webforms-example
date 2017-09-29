@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" Inherits="contactform.Default" %>
+﻿<%@ Page Language="C#" Inherits="ContactForm.Default" %>
 <!DOCTYPE html>
 <html>
 <head runat="server">

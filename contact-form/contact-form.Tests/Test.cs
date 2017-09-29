@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using System;
 
-namespace contactform.Tests
+namespace ContactForm.Tests
 {
     [TestFixture]
     public class Test
