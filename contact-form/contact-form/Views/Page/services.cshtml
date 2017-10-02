@@ -1,0 +1,19 @@
+﻿@model contactform.Controllers.PageController
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    ViewBag.Title = "Services";
+    ViewBag.Description = "This is description on the services page";
+}
+
+
+<h1>Services page</h1>
+<p>This is my services page.</p>
+
+<ul>
+
+	@foreach(var role in Technology) {
+         <li>@role</li>
+    }
+</ul>

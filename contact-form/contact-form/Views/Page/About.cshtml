@@ -2,14 +2,19 @@
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-}
 
-@{
     ViewBag.Title = "About";
     ViewBag.Description = "This is description on the about page";
 }
 
 
 <h1>About page</h1>
-<p>Hello my name is @ViewBag.Name and i im @ViewBag.Age  year. </p>
+<p>This is my personal page.</p>
+
+<h2>Personal info</h2>
+<ul>
+    <li><strong>Name: </strong>@ViewData["name"]</li>
+	<li><strong>Age:</strong>@ViewData["age"]</li>
+	<li><strong>Email:</strong>@ViewData["email"]</li>
+</ul>
 

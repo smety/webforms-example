@@ -5,6 +5,11 @@
     <meta name="description" content="@ViewBag.Description">
 </head>
 <body>
+    <menu>
+        @Html.ActionLink("Homepage", "", null, new { @class = "linkmenu" })
+        @Html.ActionLink("About", "about", null, new { @class = "linkmenu" })
+		@Html.ActionLink("Services", "services", null, new { @class = "linkmenu" })
+    </menu>
 	@RenderBody()
 
 <footer>

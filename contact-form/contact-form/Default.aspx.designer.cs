@@ -9,12 +9,12 @@
 //------------------------------------------------------------------------------
 
 namespace ContactForm {
-    
-    
-    public partial class Default {
-        
-        protected System.Web.UI.HtmlControls.HtmlForm form;
-        
-        protected System.Web.UI.WebControls.Button Button;
-    }
+	
+	
+	public partial class Default {
+		
+		protected System.Web.UI.HtmlControls.HtmlForm form;
+		
+		protected System.Web.UI.WebControls.Button Button;
+	}
 }

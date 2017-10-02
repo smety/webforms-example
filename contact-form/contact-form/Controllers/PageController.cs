@@ -7,27 +7,28 @@ using System.Web.Mvc;
 
 namespace contactform.Controllers
 {
-
-
     public class PageController : Controller
     {
 
         public ActionResult Index()
         {
-			ViewBag.Name = "Monjurul Habib";
-
-            return View();
+			return View();
         }
 
         public ActionResult About()
         {
-	
-            //	ViewBag.Age = 56;
-
-        //    ViewBag.MyMessageToUsers = "Hello from me.";
-          //  ViewBag.AnswerText = "Your answer goes here.";
+			ViewData["name"]        = "Tomas Smetka";
+            ViewData["age"]         = 28;
+			ViewData["email"]       = "tomas@smetka.net";
 
             return View();
         }
+
+		public ActionResult Services()
+		{
+            string[] Technology = new string[] { "C#", "PHP", "JS", "CSS"};
+			ViewData["data"] = Technology;
+			return View(Technology);
+		}
     }
 }
