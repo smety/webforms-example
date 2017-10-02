@@ -83,7 +83,7 @@
     <Content Include="packages.config" />
     <Content Include="Views\Page\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Page\About.cshtml" />
+    <Content Include="Views\Page\about.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
