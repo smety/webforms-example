@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "layout", "layout\layout.csproj", "{C638EA26-15D9-4507-91A7-B91BDD2750E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "layout.Tests", "layout.Tests\layout.Tests.csproj", "{EE98538B-97D3-43BB-AEA1-457420D34E10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C638EA26-15D9-4507-91A7-B91BDD2750E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C638EA26-15D9-4507-91A7-B91BDD2750E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C638EA26-15D9-4507-91A7-B91BDD2750E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C638EA26-15D9-4507-91A7-B91BDD2750E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE98538B-97D3-43BB-AEA1-457420D34E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE98538B-97D3-43BB-AEA1-457420D34E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE98538B-97D3-43BB-AEA1-457420D34E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE98538B-97D3-43BB-AEA1-457420D34E10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
