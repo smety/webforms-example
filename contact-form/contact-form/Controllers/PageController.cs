@@ -11,8 +11,8 @@ namespace contactform.Controllers
     {
         public ActionResult Index()
         {
-			string CookieName = "MyCookieTest";  
-            string CookieValue = "This is cookie value";
+			string CookieName   = "MyCookieTest";  
+            string CookieValue  = "This is cookie value";
 	  
             HttpCookie TestCookie = HttpContext.Request.Cookies[CookieName] ?? new HttpCookie(CookieName);
             TestCookie.Value = CookieValue;
@@ -21,7 +21,7 @@ namespace contactform.Controllers
 
             string cookieView = null;
 
-			if (this.ControllerContext.HttpContext.Request.Cookies.AllKeys.Contains(CookieName))
+			if (this.ControllerContext.HttpContext.Request.Cookies.AllKeys.Contains(CookieName)) // If cookie exist in current context
 			{
 				cookieView = this.ControllerContext.HttpContext.Request.Cookies[CookieName].Value;
             } 
@@ -31,11 +31,19 @@ namespace contactform.Controllers
 			return View();
         }
 
-        public ActionResult About()
+        public ActionResult About()                    
         {
+
+            string SessionName      = "MySessionTest";
+            string SessionValue     = "This is session value";
+
+            Session[SessionName]    = SessionValue;
+
 			ViewData["name"]        = "Tomas Smetka";
             ViewData["age"]         = 28;
 			ViewData["email"]       = "tomas@smetka.net";
+
+            ViewData["testsession"] = Session[SessionName];
 
             return View();
         }
