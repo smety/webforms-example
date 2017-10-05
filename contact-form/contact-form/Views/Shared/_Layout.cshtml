@@ -6,9 +6,10 @@
 </head>
 <body>
     <menu>
-        @Html.ActionLink("Homepage", "", null, new { @class = "linkmenu" })
+        @Html.ActionLink("Homepage", "/", null, new { @class = "linkmenu" })
         @Html.ActionLink("About", "about", null, new { @class = "linkmenu" })
 		@Html.ActionLink("Services", "services", null, new { @class = "linkmenu" })
+		@Html.ActionLink("Account", "login", null, new { @class = "linkmenu" })
     </menu>
 	@RenderBody()
 

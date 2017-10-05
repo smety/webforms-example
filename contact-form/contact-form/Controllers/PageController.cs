@@ -53,8 +53,18 @@ namespace contactform.Controllers
             string[] Technology = new string[] { "C#", "PHP", "JS", "CSS"};
 			
             ViewData["data"] = Technology;
+            // ViewBag.TestVariable = "This is my variable"; /
+            // FIXME bug in DDL? 
 			
-            return View(Technology);
+            return View();
 		}
+
+        [Authorize]
+        public ActionResult Login() 
+        {
+            return View();  
+        }
+
+
     }
 }
