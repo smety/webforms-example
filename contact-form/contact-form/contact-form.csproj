@@ -101,6 +101,8 @@
     </Compile>
     <Compile Include="Controllers\PageController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Controllers\BeerController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
