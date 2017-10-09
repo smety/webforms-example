@@ -35,7 +35,7 @@
 			return person; // return personals order by ID
 		}
 
-        public IEnumerable<Person> GetPersonalByBeer(string personals)
+        public IEnumerable<Person> GetPersonalByBeer(string personals) //filter
 		{
 			return Personals.Where(  
                 (p) => string.Equals(p.Name, personals,

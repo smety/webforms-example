@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ContactForm {
+namespace contactform {
 	
 	
-	public partial class Default {
+	public partial class MasterPage {
 		
-		protected System.Web.UI.WebControls.Content content;
+		protected System.Web.UI.WebControls.ContentPlaceHolder content;
 	}
 }

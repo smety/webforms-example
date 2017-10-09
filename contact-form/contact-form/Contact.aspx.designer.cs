@@ -8,11 +8,15 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ContactForm {
+namespace contactform {
 	
 	
-	public partial class Default {
+	public partial class Contact {
 		
 		protected System.Web.UI.WebControls.Content content;
+		
+		protected System.Web.UI.HtmlControls.HtmlForm form;
+		
+		protected System.Web.UI.WebControls.Button Button;
 	}
 }
